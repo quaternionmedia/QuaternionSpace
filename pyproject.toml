@@ -1,0 +1,25 @@
+[project]
+name = "quaternionspace"
+version = "0.1.0"
+description = "Wordpress to Zensical conversion"
+readme = "README.md"
+authors = [
+    { name = "Harpo", email = "harpo@harpo.me" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "zensical>=0.0.65",
+    "markdownify>=0.13",
+]
+
+[project.scripts]
+qspace = "quaternionspace:main"
+
+[build-system]
+requires = ["uv_build>=0.11.18,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.2",
+]
