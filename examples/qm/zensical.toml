@@ -1,0 +1,24 @@
+# Example: Quaternion Media projects converted from a Squarespace export.
+# Build: uv run zensical build -f examples/qm/zensical.toml
+# Convert: uv run qspace convert -f examples/qm/zensical.toml
+
+[project]
+site_name = "QM Projects (example)"
+# docs_dir defaults to "docs", so output goes to examples/qm/docs/.
+
+[project.plugins.blog]
+blog_dir = "projects"
+# post_dir defaults to "{blog}/posts": posts go to examples/qm/docs/projects/posts/.
+
+[project.plugins.tags]
+
+[quaternionspace]
+xml = "../../qm-projects-10-25-2026.xml"   # relative to this file
+images = "local"                           # "local" downloads images; "remote" keeps CDN URLs
+image_hosts = ["images.squarespace-cdn.com"]
+project_prefix = "/projects/"
+published_status = "publish"               # other wp:status values become draft: true
+slug_overrides = {}
+pages = {}                                 # WXR page name -> file under docs/
+
+[quaternionspace.tags]                     # project slug -> tags

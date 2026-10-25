@@ -10,10 +10,11 @@ requires-python = ">=3.11"
 dependencies = [
     "zensical>=0.0.65",
     "markdownify>=0.13",
+    "typer>=0.27.3",
 ]
 
 [project.scripts]
-qspace = "quaternionspace:main"
+qspace = "quaternionspace.cli:app"
 
 [build-system]
 requires = ["uv_build>=0.11.18,<0.12.0"]
@@ -21,5 +22,6 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "pytest>=9.1.1",
     "ruff>=0.17.2",
 ]

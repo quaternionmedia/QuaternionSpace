@@ -1,0 +1,16 @@
+[project]
+site_name = "Fixture"
+
+[project.plugins.blog]
+blog_dir = "projects"
+
+[quaternionspace]
+xml = "export.xml"
+images = "local"
+image_hosts = ["images.squarespace-cdn.com"]
+slug_overrides = { s2ig08ghl4kngswm15jdotj0z8eq9g = "dellarte-productions" }
+pages = { about = "about.md", contact = "contact.md" }
+
+[quaternionspace.tags]
+cesar-and-ruben = ["music"]
+dellarte-productions = ["theater"]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hand-written WXR excerpt for tests. Not copied from any real export. -->
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+<title>Fixture</title>
+<item>
+  <title>Cesar and Ruben</title>
+  <link>/projects/2018/7/24/cesar-and-ruben</link>
+  <content:encoded><![CDATA[<p>Poster: <img src="https://images.squarespace-cdn.com/content/v1/5b54/1619636621256-D9E4/c%26r-poster.jpg?format=original" alt=""></p>
+<p>Second poster: <img src="https://images.squarespace-cdn.com/content/v1/5b54/1619638953883-TBY6/c%26r-poster.jpg?format=original" alt=""></p>
+<iframe src="//www.youtube.com/embed/5jf_kaAtWB4?wmode=opaque&amp;enablejsapi=1" height="480" width="854" frameborder="0" allowfullscreen=""></iframe>]]></content:encoded>
+  <wp:post_date>2018-07-24 10:00:00</wp:post_date>
+  <wp:post_name>2018/7/24/cesar-and-ruben</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_type>post</wp:post_type>
+</item>
+<item>
+  <title>St. Alban's "Country Day" School</title>
+  <link>/projects/2018/7/24/st-albans-country-day-school</link>
+  <content:encoded><![CDATA[<p>A school show.</p>]]></content:encoded>
+  <wp:post_date>2018-07-24 11:00:00</wp:post_date>
+  <wp:post_name>2018/7/24/st-albans-country-day-school</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_type>post</wp:post_type>
+</item>
+<item>
+  <title>1776 Projection Designs</title>
+  <link>/projects/2018/10/9/1776-projection-designs</link>
+  <content:encoded><![CDATA[<p>Unfinished work.</p>]]></content:encoded>
+  <wp:post_date>2018-10-09 09:00:00</wp:post_date>
+  <wp:post_name>2018/10/9/1776-projection-designs</wp:post_name>
+  <wp:status>draft</wp:status>
+  <wp:post_type>post</wp:post_type>
+</item>
+<item>
+  <title>Dellarte Productions</title>
+  <link>/projects/s2ig08ghl4kngswm15jdotj0z8eq9g</link>
+  <content:encoded><![CDATA[<p>Theatre company.</p>]]></content:encoded>
+  <wp:post_date>2019-01-02 09:00:00</wp:post_date>
+  <wp:post_name>s2ig08ghl4kngswm15jdotj0z8eq9g</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_type>post</wp:post_type>
+</item>
+<item>
+  <title>About</title>
+  <link>/about</link>
+  <content:encoded><![CDATA[<h2>About us</h2><p>Hello.</p><p><img src="https://images.squarespace-cdn.com/content/v1/5b54/1532999776733-ZQO3/african+dream+poster.jpg?format=original" alt=""></p>]]></content:encoded>
+  <wp:post_date>2018-01-01 09:00:00</wp:post_date>
+  <wp:post_name>about</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_type>page</wp:post_type>
+</item>
+<item>
+  <title>Contact</title>
+  <link>/contact</link>
+  <content:encoded><![CDATA[<p>Unpublished page.</p>]]></content:encoded>
+  <wp:post_date>2018-01-01 09:00:00</wp:post_date>
+  <wp:post_name>contact</wp:post_name>
+  <wp:status>draft</wp:status>
+  <wp:post_type>page</wp:post_type>
+</item>
+<item>
+  <title>Blog note</title>
+  <link>/blog/2018/1/1/note</link>
+  <content:encoded><![CDATA[<p>Not a project.</p>]]></content:encoded>
+  <wp:post_date>2018-01-01 09:00:00</wp:post_date>
+  <wp:post_name>note</wp:post_name>
+  <wp:status>publish</wp:status>
+  <wp:post_type>post</wp:post_type>
+</item>
+</channel>
+</rss>
